@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
     vendor/motorola/chef/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/motorola/chef/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
+    vendor/motorola/chef/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/chef/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_nt_fhd_618.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_nt_fhd_618.xml \
     vendor/motorola/chef/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/motorola/chef/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
@@ -54,6 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/motorola/chef/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/motorola/chef/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
+    vendor/motorola/chef/proprietary/vendor/lib/libDepthBokehEffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDepthBokehEffect.so \
+    vendor/motorola/chef/proprietary/vendor/lib/libPui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPui.so \
     vendor/motorola/chef/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/motorola/chef/proprietary/vendor/lib/libS5k2l7Pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7Pdaf.so \
     vendor/motorola/chef/proprietary/vendor/lib/libS5k2l7PdafCamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7PdafCamif.so \
@@ -144,6 +147,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/motorola/chef/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/motorola/chef/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
+    vendor/motorola/chef/proprietary/vendor/lib/libets_fp_et5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libets_fp_et5.so \
+    vendor/motorola/chef/proprietary/vendor/lib/libets_teeclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libets_teeclient.so \
     vendor/motorola/chef/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/motorola/chef/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/motorola/chef/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
@@ -270,6 +275,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/motorola/chef/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/chef/proprietary/vendor/lib/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobokeh.so \
+    vendor/motorola/chef/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.egistec.hardware.fingerprint@2.0_vendor.so \
     vendor/motorola/chef/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/motorola/chef/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/motorola/chef/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
@@ -282,6 +288,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/motorola/chef/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
     vendor/motorola/chef/proprietary/vendor/lib64/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcameraddm.so \
+    vendor/motorola/chef/proprietary/vendor/lib64/libets_fp_et5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_fp_et5.so \
+    vendor/motorola/chef/proprietary/vendor/lib64/libets_teeclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient.so \
     vendor/motorola/chef/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/motorola/chef/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/motorola/chef/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
@@ -302,4 +310,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
     vendor/motorola/chef/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/motorola/chef/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
-    vendor/motorola/chef/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so
+    vendor/motorola/chef/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so \
+    vendor/motorola/chef/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so
