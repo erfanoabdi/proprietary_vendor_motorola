@@ -447,7 +447,7 @@
       <data name="single_qmux_ch_enabled" type="int"> 1 </data>
       <data name="single_qmux_ch_conn_id_str" type="string"> rmnet0 </data>
       <data name="single_qmux_ch_name" type="string"> DATA5_CNTL </data>
-      <data name="tc_ul_baserate" type="int"> 65000000 </data>
+      <data name="tc_ul_baserate" type="int"> 85000000 </data>
       <data name="rmnet_data_enabled" type="int"> 1 </data>
       <data name="dataformat_agg_dl_pkt" type="int"> 1 </data>
       <data name="dataformat_agg_dl_size" type="int"> 2048 </data>
@@ -2275,7 +2275,7 @@
       <data name="use_qmuxd" type="int"> 0 </data>
       <data name="dpm_retry_timeout" type="int"> 10000 </data>
       <data name="wda_data_format_enabled" type="int"> 1 </data>
-      <data name="kfc_mode" type="int"> 1 </data>
+      <data name="kfc_mode" type="int"> 2 </data>
       <data name="qmi_pc" type="int"> 1 </data>
       <data name="tcp_ack_prio" type="int"> 1 </data>
 
@@ -2283,7 +2283,7 @@
       <data name="single_qmux_ch_conn_id_str" type="string"> rmnet0 </data>
       <data name="single_qmux_ch_name" type="string"> DATA5_CNTL </data>
       <data name="tc_ul_baserate" type="int"> 155000000 </data>
-      <data name="dynamic_tc_ul_baserate" type="int"> 1 </data>
+      <data name="dynamic_tc_ul_baserate" type="int"> 0 </data>
       <data name="tc_ul_burst" type="int"> 25000 </data>
       <data name="rmnet_data_enabled" type="int"> 1 </data>
       <data name="dataformat_agg_dl_pkt" type="int"> 31 </data>
@@ -2473,7 +2473,7 @@
       <data name="use_qmuxd" type="int"> 0 </data>
       <data name="dpm_retry_timeout" type="int"> 10000 </data>
       <data name="wda_data_format_enabled" type="int"> 1 </data>
-      <data name="kfc_mode" type="int"> 1 </data>
+      <data name="kfc_mode" type="int"> 2 </data>
       <data name="qmi_pc" type="int"> 1 </data>
       <data name="tcp_ack_prio" type="int"> 1 </data>
 
@@ -2481,7 +2481,7 @@
       <data name="single_qmux_ch_conn_id_str" type="string"> rmnet0 </data>
       <data name="single_qmux_ch_name" type="string"> DATA5_CNTL </data>
       <data name="tc_ul_ceiling_mbps" type="int"> 3500 </data>
-      <data name="dynamic_tc_ul_baserate" type="int"> 1 </data>
+      <data name="dynamic_tc_ul_baserate" type="int"> 0 </data>
       <data name="tc_ul_burst" type="int"> 25000 </data>
       <data name="rmnet_data_enabled" type="int"> 1 </data>
       <data name="dataformat_agg_dl_pkt" type="int"> 31 </data>
