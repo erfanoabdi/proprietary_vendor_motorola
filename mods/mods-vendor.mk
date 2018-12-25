@@ -18,6 +18,8 @@ ifeq ($(strip $(USE_MOTO_AUDIOHAL)),true)
 PRODUCT_COPY_FILES += \
     vendor/motorola/mods/proprietary/vendor/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/motorola/mods/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
+    vendor/motorola/mods/proprietary/vendor/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/motorola/mods/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/motorola/mods/proprietary/vendor/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/mods/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/motorola/mods/proprietary/vendor/lib/hw/audio.primary.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.qcom.so
