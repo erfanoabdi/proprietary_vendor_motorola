@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
     vendor/motorola/evert/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libblurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurbuster.so \
+    vendor/motorola/evert/proprietary/vendor/lib64/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_metadata.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libclearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclearsight.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhazebuster.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_blurbuster.so \
@@ -104,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/motorola/evert/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/motorola/evert/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libPui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPui.so \
     vendor/motorola/evert/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/motorola/evert/proprietary/vendor/lib/libS5k2l7Pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7Pdaf.so \
     vendor/motorola/evert/proprietary/vendor/lib/libS5k2l7PdafCamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7PdafCamif.so \
@@ -193,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_liveshot.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_preview.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_snapshot.so \
+    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_snapshot_custom.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_us_chromatix.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_video.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_default_preview_3a.so \
@@ -401,6 +402,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_ov5695_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695_eeprom.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov8856.so \
+    vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_ov8856_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov8856_eeprom.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa_eeprom.so \
@@ -408,6 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp_eeprom.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k4h7.so \
+    vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_mot_s5k4h7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k4h7_eeprom.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
@@ -454,7 +457,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobokeh.so \
     vendor/motorola/evert/proprietary/vendor/lib/libzaf_algs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_algs.so \
     vendor/motorola/evert/proprietary/vendor/lib/libzaf_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_core.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/com.fingerprints.extension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0_vendor.so \
+    vendor/motorola/evert/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/motorola/evert/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/motorola/evert/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/motorola/evert/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
