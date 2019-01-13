@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,50 +20,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_imx386_mono.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386_mono.json \
     vendor/motorola/evert/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7sa.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7sa.json \
     vendor/motorola/evert/proprietary/vendor/lib/hw/libSonyDefocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSonyDefocus.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libblurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurbuster.so \
     vendor/motorola/evert/proprietary/vendor/lib/libbufferhubqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbufferhubqueue.so \
     vendor/motorola/evert/proprietary/vendor/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_metadata.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhazebuster.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_blurbuster.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_chromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_chromaflash.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_dualcamera.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_filtergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_filtergenerator.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_hazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_hazebuster.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_makeupV2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_makeupV2.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_optizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_optizoom.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_panorama.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_seestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_seestraight.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_sharpshooter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_sharpshooter.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_stillmore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_stillmore.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_trackingfocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_trackingfocus.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_trueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_trueportrait.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_truescanner_v2.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_ubifocus.so \
     vendor/motorola/evert/proprietary/vendor/lib/libpdx_default_transport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdx_default_transport.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libblurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurbuster.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libbufferhubqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbufferhubqueue.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_metadata.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libclearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclearsight.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhazebuster.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_blurbuster.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_chromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_chromaflash.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_clearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_clearsight.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_dualcamera.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_filtergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_filtergenerator.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_hazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_hazebuster.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_makeupV2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_makeupV2.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_optizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_optizoom.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libjni_pacprocessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_pacprocessor.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_panorama.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_seestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_seestraight.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_sharpshooter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_sharpshooter.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_stillmore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_stillmore.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_trackingfocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_trackingfocus.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_trueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_trueportrait.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_truescanner_v2.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_ubifocus.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libpdx_default_transport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdx_default_transport.so \
     vendor/motorola/evert/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/evert/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
@@ -117,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/evert/proprietary/vendor/lib/libactuator_mot_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371.so \
     vendor/motorola/evert/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_imx386_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_4k_video_3a.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_imx386_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_common.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_imx386_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_cpp_hfr_120.so \
@@ -192,26 +153,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_common.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_ds_chromatix.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_hfr_120.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_hfr_60.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_hfr_90.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_liveshot.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_preview.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_snapshot.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_snapshot_custom.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_us_chromatix.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_cpp_video.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_default_preview_3a.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_default_video.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_default_video_3a.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_hfr_120.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_hfr_120_3a.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_hfr_60.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_hfr_60_3a.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_hfr_90.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_hfr_90_3a.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_liveshot.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_postproc.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_preview.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_snapshot.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_zsl_preview_3a.so \
     vendor/motorola/evert/proprietary/vendor/lib/libchromatix_mot_ov8856_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov8856_zsl_video_3a.so \
@@ -339,7 +289,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
@@ -446,18 +395,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
     vendor/motorola/evert/proprietary/vendor/lib/libmotimager_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotimager_utils.so \
     vendor/motorola/evert/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/motorola/evert/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/motorola/evert/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/motorola/evert/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/motorola/evert/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/motorola/evert/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/evert/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/motorola/evert/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
-    vendor/motorola/evert/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/evert/proprietary/vendor/lib/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobokeh.so \
     vendor/motorola/evert/proprietary/vendor/lib/libzaf_algs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_algs.so \
     vendor/motorola/evert/proprietary/vendor/lib/libzaf_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_core.so \
@@ -470,7 +413,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromaflash.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcameraddm.so \
@@ -486,15 +428,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboptizoom.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn553_fw.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/motorola/evert/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
-    vendor/motorola/evert/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/motorola/evert/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so
