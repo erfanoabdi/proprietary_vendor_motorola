@@ -110,6 +110,7 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0xF" Node="/sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq" />
         <Minor OpcodeValue="0x10" Node="/sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_load" />
         <Minor OpcodeValue="0x11" Node="/sys/devices/system/cpu/cpu0/cpufreq/schedutil/pl" />
+        <Minor OpcodeValue="0x12" Node="/sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us" />
     <!-- interactive major end -->
 
     <!-- cpubw hwmon major start -->
