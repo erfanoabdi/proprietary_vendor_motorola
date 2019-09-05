@@ -1018,7 +1018,6 @@ PRODUCT_PACKAGES += \
     ModService \
     ProjectorApp \
     WfdService \
-    ims \
     qcrilmsgtunnel \
     QtiTelephonyService \
     TimeService \
