@@ -146,7 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/lib/libets_fp_et5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libets_fp_et5.so \
     vendor/motorola/chef/proprietary/vendor/lib/libets_teeclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libets_teeclient.so \
     vendor/motorola/chef/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/motorola/chef/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
     vendor/motorola/chef/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/motorola/chef/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/motorola/chef/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
