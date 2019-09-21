@@ -711,6 +711,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyService \
     datastatusnotification \
-    ims \
     qcrilmsgtunnel \
     WfdCommon
