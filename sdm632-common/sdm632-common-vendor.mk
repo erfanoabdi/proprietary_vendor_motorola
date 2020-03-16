@@ -974,12 +974,4 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
-    libloc_api_v02 \
-    CNEService \
-    WfdService \
-    ims \
-    qcrilmsgtunnel \
-    QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    WfdCommon
+    libloc_api_v02
